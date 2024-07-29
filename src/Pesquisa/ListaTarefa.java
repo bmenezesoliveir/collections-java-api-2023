@@ -1,4 +1,4 @@
-package OperacoesBasicas;
+package Pesquisa;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,14 +35,14 @@ public class ListaTarefa {
 
     public static void main(String[] args) {
     ListaTarefa listaTarefa = new ListaTarefa();
-        listaTarefa.adicionarTarefa("OperacoesBasicas.Tarefa 1");
-        listaTarefa.adicionarTarefa("OperacoesBasicas.Tarefa 2");
-        listaTarefa.adicionarTarefa("OperacoesBasicas.Tarefa 3");
+        listaTarefa.adicionarTarefa("Pesquisa.Tarefa 1");
+        listaTarefa.adicionarTarefa("Pesquisa.Tarefa 2");
+        listaTarefa.adicionarTarefa("Pesquisa.Tarefa 3");
 
 
         System.out.println("O numero de tarefas é: " + listaTarefa.obterNumeroTotalTarefas());
 
-        listaTarefa.removerTarefa("OperacoesBasicas.Tarefa 1");
+        listaTarefa.removerTarefa("Pesquisa.Tarefa 1");
 
         System.out.println("O numero de tarefas é: " + listaTarefa.obterNumeroTotalTarefas());
 

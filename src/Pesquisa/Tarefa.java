@@ -1,4 +1,4 @@
-package OperacoesBasicas;
+package Pesquisa;
 
 public class Tarefa {
     //atributos

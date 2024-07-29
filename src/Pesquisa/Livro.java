@@ -1,4 +1,4 @@
-
+package Pesquisa;
 
 public class Livro {
     //atributos
@@ -28,7 +28,7 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" +
+        return "Pesquisa.Livro{" +
                 "titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
                 ", anoPublicacao=" + anoPublicacao +

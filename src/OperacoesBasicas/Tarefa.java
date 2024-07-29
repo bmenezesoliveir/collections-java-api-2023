@@ -1,3 +1,5 @@
+package OperacoesBasicas;
+
 public class Tarefa {
     //atributos
     private  String descricao;

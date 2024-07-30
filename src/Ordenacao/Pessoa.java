@@ -1,4 +1,4 @@
-package Ordenação;
+package Ordenacao;
 
 import java.util.Comparator;
 
